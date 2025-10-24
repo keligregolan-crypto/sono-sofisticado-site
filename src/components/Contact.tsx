@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 
 const Contact = () => {
   const phoneNumber = "45991493388";
-  const whatsappUrl = `https://wa.me/${phoneNumber}`;
+  const message = "Olá, vim do seu site!";
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   const address = "Rua Apinajés 1109, Santa Cruz, Cascavel - PR";
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 

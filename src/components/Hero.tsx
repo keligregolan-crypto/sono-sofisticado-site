@@ -2,8 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin } from "lucide-react";
 
 const Hero = () => {
-  const phoneNumber = "5545991493388";
-  const whatsappUrl = `https://wa.me/${phoneNumber}`;
+  const phoneNumber = "45991493388";
+  const message = "Olá, vim do seu site!";
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-secondary via-secondary to-background pt-20">

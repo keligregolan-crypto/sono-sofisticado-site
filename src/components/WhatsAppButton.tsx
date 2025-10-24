@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 
 const WhatsAppButton = () => {
   const phoneNumber = "45991493388";
-  const whatsappUrl = `https://wa.me/${phoneNumber}`;
+  const message = "Olá, vim do seu site!";
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
     <div className="fixed bottom-6 right-6 z-50 animate-fade-in">

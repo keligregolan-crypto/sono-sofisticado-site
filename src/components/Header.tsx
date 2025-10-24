@@ -13,7 +13,8 @@ const Header = () => {
   };
 
   const phoneNumber = "45991493388";
-  const whatsappUrl = `https://wa.me/${phoneNumber}`;
+  const message = "Olá, vim do seu site!";
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-sm border-b border-primary/20">
