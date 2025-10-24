@@ -2,7 +2,7 @@ import { MapPin, Phone, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
-  const phoneNumber = "5545991493388";
+  const phoneNumber = "45991493388";
   const whatsappUrl = `https://wa.me/${phoneNumber}`;
   const address = "Rua Apinajés 1109, Santa Cruz, Cascavel - PR";
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
