@@ -48,36 +48,16 @@ const products = [
         description: "Base baú com amplo espaço de armazenamento"
       },
       {
-        title: "Base Baú Casal - Azul",
+        title: "Pufe Casal - Azul",
         image: camaBauAzul,
-        description: "Base baú com sistema de abertura facilitada"
-      },
-    ]
-  },
-  {
-    category: "Colchão + Base",
-    items: [
-      {
-        title: "Conjunto Casal - Preto",
-        image: camaConjugada4,
-        description: "Colchão premium com base de alta qualidade"
-      },
-      {
-        title: "Conjunto Casal - Padrão Floral",
-        image: camaConjugada5,
-        description: "Colchão confortável com estampa elegante"
-      },
-      {
-        title: "Conjunto Casal - Estampado",
-        image: camaConjugada6,
-        description: "Design moderno e confortável"
+        description: "Pufe baú com sistema de abertura facilitada"
       },
     ]
   }
 ];
 
 const Products = () => {
-  const phoneNumber = "5545991493388";
+  const phoneNumber = "45991493388";
 
   return (
     <section id="produtos" className="py-20 bg-background">
