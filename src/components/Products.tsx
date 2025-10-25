@@ -20,6 +20,8 @@ import camaSolteiroRosa from "@/assets/products/cama-solteiro-rosa.jpg";
 import camaSolteiroAzul3 from "@/assets/products/cama-solteiro-azul-3.jpg";
 import camaPufeBauCinza from "@/assets/products/cama-pufe-bau-cinza.jpg";
 import camaPufeBauAzul from "@/assets/products/cama-pufe-bau-azul.jpg";
+import camaConjugada8 from "@/assets/products/cama-casal-8.jpg";
+import camaConjugada9 from "@/assets/products/cama-casal-9.jpg";
 
 const products = [
   {
@@ -79,6 +81,16 @@ const products = [
         title: "Cama Box Conjugada Casal - Cinza",
         image: camaConjugada7,
         description: "Design elegante com acabamento premium"
+      },
+      {
+        title: "Cama Box Casal - Preta com Cabeceira Capitonê",
+        image: camaConjugada8,
+        description: "Cabeceira capitonê preta elegante com base preta"
+      },
+      {
+        title: "Cama Box Casal - Azul e Cinza com Cabeceira Capitonê",
+        image: camaConjugada9,
+        description: "Combinação sofisticada de cabeceira cinza capitonê e base azul"
       },
     ]
   },
