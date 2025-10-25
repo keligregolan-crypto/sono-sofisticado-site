@@ -18,6 +18,8 @@ import camaSolteiroPreta2 from "@/assets/products/cama-solteiro-preta-2.jpg";
 import camaSolteiroAzul2 from "@/assets/products/cama-solteiro-azul-2.jpg";
 import camaSolteiroRosa from "@/assets/products/cama-solteiro-rosa.jpg";
 import camaSolteiroAzul3 from "@/assets/products/cama-solteiro-azul-3.jpg";
+import camaPufeBauCinza from "@/assets/products/cama-pufe-bau-cinza.jpg";
+import camaPufeBauAzul from "@/assets/products/cama-pufe-bau-azul.jpg";
 
 const products = [
   {
@@ -81,7 +83,7 @@ const products = [
     ]
   },
   {
-    category: "Base Baú",
+    category: "Base Baú e Pufe Baú",
     items: [
       {
         title: "Base Baú Casal - Bege",
@@ -92,6 +94,16 @@ const products = [
         title: "Pufe Casal - Azul",
         image: camaBauAzul,
         description: "Pufe baú com sistema de abertura facilitada"
+      },
+      {
+        title: "Cama Box com Pufe Baú - Cinza",
+        image: camaPufeBauCinza,
+        description: "Conjunto completo com cabeceira capitonê e pufe baú espaçoso"
+      },
+      {
+        title: "Cama Box com Pufe Baú - Azul",
+        image: camaPufeBauAzul,
+        description: "Design moderno com cabeceira capitonê azul e pufe baú"
       },
     ]
   }
