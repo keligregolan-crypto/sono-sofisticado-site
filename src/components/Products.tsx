@@ -12,8 +12,49 @@ import camaConjugada6 from "@/assets/products/cama-casal-6.jpg";
 import camaConjugada7 from "@/assets/products/cama-casal-7.jpg";
 import baseBau from "@/assets/products/base-bau.jpg";
 import camaBauAzul from "@/assets/products/cama-bau-azul.jpg";
+import camaSolteiroPreta1 from "@/assets/products/cama-solteiro-preta-1.jpg";
+import camaSolteiroAzul1 from "@/assets/products/cama-solteiro-azul-1.jpg";
+import camaSolteiroPreta2 from "@/assets/products/cama-solteiro-preta-2.jpg";
+import camaSolteiroAzul2 from "@/assets/products/cama-solteiro-azul-2.jpg";
+import camaSolteiroRosa from "@/assets/products/cama-solteiro-rosa.jpg";
+import camaSolteiroAzul3 from "@/assets/products/cama-solteiro-azul-3.jpg";
 
 const products = [
+  {
+    category: "Cama Box Solteiro com Cabeceira",
+    items: [
+      {
+        title: "Cama Box Solteiro - Preta Base Simples",
+        image: camaSolteiroPreta1,
+        description: "Base preta com design moderno e compacto"
+      },
+      {
+        title: "Cama Box Solteiro - Azul com Cabeceira Vertical",
+        image: camaSolteiroAzul1,
+        description: "Cabeceira vertical azul em tecido premium"
+      },
+      {
+        title: "Cama Box Solteiro - Preta com Cabeceira Capitonê",
+        image: camaSolteiroPreta2,
+        description: "Elegante cabeceira capitonê preta com botões decorativos"
+      },
+      {
+        title: "Cama Box Solteiro - Azul com Cabeceira Capitonê",
+        image: camaSolteiroAzul2,
+        description: "Cabeceira capitonê azul com acabamento premium"
+      },
+      {
+        title: "Cama Box Solteiro - Rosa com Cabeceira Capitonê",
+        image: camaSolteiroRosa,
+        description: "Design delicado com cabeceira rosa capitonê"
+      },
+      {
+        title: "Cama Box Solteiro - Azul com Cabeceira Vertical Premium",
+        image: camaSolteiroAzul3,
+        description: "Cabeceira vertical azul com acabamento em tecido nobre"
+      },
+    ]
+  },
   {
     category: "Cama Box Conjugada com Cabeceira",
     items: [
