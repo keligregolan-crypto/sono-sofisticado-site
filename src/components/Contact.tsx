@@ -89,6 +89,24 @@ const Contact = () => {
         </div>
 
         <div className="mt-16 max-w-4xl mx-auto">
+          <div className="bg-card border border-primary/20 rounded-xl p-8 mb-8">
+            <h3 className="font-playfair text-2xl md:text-3xl font-bold text-secondary mb-6 text-center">
+              Nossa Localização
+            </h3>
+            <div className="w-full h-[400px] rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps?q=Rua+Apinajés+1109,+Santa+Cruz,+Cascavel+-+PR&output=embed"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Localização Cama Box Cascavel"
+              />
+            </div>
+          </div>
+
           <div className="bg-gradient-to-r from-secondary to-secondary/80 rounded-xl p-8 md:p-12 text-center">
             <h3 className="font-playfair text-3xl md:text-4xl font-bold text-primary mb-4">
               Visite Nossa Loja
