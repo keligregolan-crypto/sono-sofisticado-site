@@ -22,6 +22,7 @@ import camaPufeBauCinza from "@/assets/products/cama-pufe-bau-cinza.jpg";
 import camaPufeBauAzul from "@/assets/products/cama-pufe-bau-azul.jpg";
 import camaConjugada8 from "@/assets/products/cama-casal-8.jpg";
 import camaConjugada9 from "@/assets/products/cama-casal-9.jpg";
+import camaConjugada10 from "@/assets/products/cama-casal-10.jpg";
 
 const products = [
   {
@@ -91,6 +92,11 @@ const products = [
         title: "Cama Box Casal - Azul e Cinza com Cabeceira Capitonê",
         image: camaConjugada9,
         description: "Combinação sofisticada de cabeceira cinza capitonê e base azul"
+      },
+      {
+        title: "Cama Box Casal - Dupla Camada de Espuma e Pillow Soft",
+        image: camaConjugada10,
+        description: "Base preta matelassê com cabeceira capitonê cinza e colchão premium com dupla camada de espuma"
       },
     ]
   },
