@@ -39,19 +39,19 @@ const products = [
         description: "Cabeceira vertical azul em tecido premium"
       },
       {
-        title: "Cama Box Solteiro - Preta com Cabeceira Capitonê",
+        title: "Cama Box Solteiro - Preta com Cabeceira com Botões de Strass",
         image: camaSolteiroPreta2,
-        description: "Elegante cabeceira capitonê preta com botões decorativos"
+        description: "Elegante cabeceira preta com botões de strass decorativos"
       },
       {
-        title: "Cama Box Solteiro - Azul com Cabeceira Capitonê",
+        title: "Cama Box Solteiro - Azul com Cabeceira com Botões de Strass",
         image: camaSolteiroAzul2,
-        description: "Cabeceira capitonê azul com acabamento premium"
+        description: "Cabeceira azul com botões de strass e acabamento premium"
       },
       {
-        title: "Cama Box Solteiro - Rosa com Cabeceira Capitonê",
+        title: "Cama Box Solteiro - Rosa com Cabeceira com Botões de Strass",
         image: camaSolteiroRosa,
-        description: "Design delicado com cabeceira rosa capitonê"
+        description: "Design delicado com cabeceira rosa com botões de strass"
       },
       {
         title: "Cama Box Solteiro - Azul com Cabeceira Vertical Premium",
@@ -66,12 +66,12 @@ const products = [
       {
         title: "Cama Box Conjugada Casal - Preta",
         image: camaConjugada1,
-        description: "Cama box conjugada com cabeceira capitonê e base"
+        description: "Cama box conjugada com cabeceira com botões de strass e base"
       },
       {
         title: "Cama Box Conjugada Casal - Bege",
         image: camaConjugada2,
-        description: "Cama box com cabeceira capitonê em tecido premium"
+        description: "Cama box com cabeceira com botões de strass em tecido premium"
       },
       {
         title: "Cama Box Casal - Preta",
@@ -84,19 +84,19 @@ const products = [
         description: "Design elegante com acabamento premium"
       },
       {
-        title: "Cama Box Casal - Preta com Cabeceira Capitonê",
+        title: "Cama Box Casal - Preta com Cabeceira com Botões de Strass",
         image: camaConjugada8,
-        description: "Cabeceira capitonê preta elegante com base preta"
+        description: "Cabeceira preta elegante com botões de strass e base preta"
       },
       {
-        title: "Cama Box Casal - Azul e Cinza com Cabeceira Capitonê",
+        title: "Cama Box Casal - Azul e Cinza com Cabeceira com Botões de Strass",
         image: camaConjugada9,
-        description: "Combinação sofisticada de cabeceira cinza capitonê e base azul"
+        description: "Combinação sofisticada de cabeceira cinza com botões de strass e base azul"
       },
       {
         title: "Cama Box Casal - Dupla Camada de Espuma e Pillow Soft",
         image: camaConjugada10,
-        description: "Base preta matelassê com cabeceira capitonê cinza e colchão premium com dupla camada de espuma"
+        description: "Base preta matelassê com cabeceira cinza com botões de strass e colchão premium com dupla camada de espuma"
       },
     ]
   },
@@ -116,12 +116,12 @@ const products = [
       {
         title: "Cama Box com Pufe Baú - Cinza",
         image: camaPufeBauCinza,
-        description: "Conjunto completo com cabeceira capitonê e pufe baú espaçoso"
+        description: "Conjunto completo com cabeceira com botões de strass e pufe baú espaçoso"
       },
       {
         title: "Cama Box com Pufe Baú - Azul",
         image: camaPufeBauAzul,
-        description: "Design moderno com cabeceira capitonê azul e pufe baú"
+        description: "Design moderno com cabeceira azul com botões de strass e pufe baú"
       },
     ]
   }
