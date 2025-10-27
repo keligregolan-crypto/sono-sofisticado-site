@@ -104,11 +104,6 @@ const products = [
     category: "Base Baú e Pufe Baú",
     items: [
       {
-        title: "Base Baú Casal - Bege",
-        image: baseBau,
-        description: "Base baú com amplo espaço de armazenamento"
-      },
-      {
         title: "Cama Box com Pufe Baú - Cinza",
         image: camaPufeBauCinza,
         description: "Conjunto completo com cabeceira com botões de strass e pufe baú espaçoso"
@@ -117,11 +112,6 @@ const products = [
         title: "Pufe Casal - Azul",
         image: camaBauAzul,
         description: "Pufe baú com sistema de abertura facilitada"
-      },
-      {
-        title: "Cama Box com Pufe Baú - Azul",
-        image: camaPufeBauAzul,
-        description: "Design moderno com cabeceira azul com botões de strass e pufe baú"
       },
     ]
   }
