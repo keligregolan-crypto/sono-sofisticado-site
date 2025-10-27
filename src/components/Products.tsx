@@ -18,6 +18,8 @@ import camaSolteiroPreta2 from "@/assets/products/cama-solteiro-preta-2.jpg";
 import camaSolteiroAzul2 from "@/assets/products/cama-solteiro-azul-2.jpg";
 import camaSolteiroRosa from "@/assets/products/cama-solteiro-rosa.jpg";
 import camaSolteiroAzul3 from "@/assets/products/cama-solteiro-azul-3.jpg";
+import camaSolteiroPretaStrass from "@/assets/products/cama-solteiro-preta-strass.jpg";
+import camaSolteiroCabeceiraPremium from "@/assets/products/cama-solteiro-cabeceira-premium.jpg";
 import camaPufeBauCinza from "@/assets/products/cama-pufe-bau-cinza.jpg";
 import camaPufeBauAzul from "@/assets/products/cama-pufe-bau-azul.jpg";
 import camaPufeBauAzul2 from "@/assets/products/cama-pufe-bau-azul-2.jpg";
@@ -49,6 +51,16 @@ const products = [
         title: "Cama Box Solteiro - Rosa com Cabeceira com Botões de Strass",
         image: camaSolteiroRosa,
         description: "Design delicado com cabeceira rosa com botões de strass"
+      },
+      {
+        title: "Cama Box Solteiro - Preta com Cabeceira com Botões de Strass",
+        image: camaSolteiroPretaStrass,
+        description: "Elegante cabeceira preta com botões de strass decorativos"
+      },
+      {
+        title: "Cama Box Solteiro - Cabeceira Premium",
+        image: camaSolteiroCabeceiraPremium,
+        description: "Cabeceira premium com design moderno e sofisticado"
       },
     ]
   },
