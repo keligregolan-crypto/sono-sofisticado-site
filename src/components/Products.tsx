@@ -20,6 +20,7 @@ import camaSolteiroRosa from "@/assets/products/cama-solteiro-rosa.jpg";
 import camaSolteiroAzul3 from "@/assets/products/cama-solteiro-azul-3.jpg";
 import camaPufeBauCinza from "@/assets/products/cama-pufe-bau-cinza.jpg";
 import camaPufeBauAzul from "@/assets/products/cama-pufe-bau-azul.jpg";
+import camaPufeBauAzul2 from "@/assets/products/cama-pufe-bau-azul-2.jpg";
 import camaConjugada8 from "@/assets/products/cama-casal-8.jpg";
 import camaConjugada9 from "@/assets/products/cama-casal-9.jpg";
 import camaConjugada10 from "@/assets/products/cama-casal-10.jpg";
@@ -112,6 +113,11 @@ const products = [
         title: "Pufe Casal - Azul",
         image: camaBauAzul,
         description: "Pufe baú com sistema de abertura facilitada"
+      },
+      {
+        title: "Cama Box com Pufe Baú - Azul",
+        image: camaPufeBauAzul2,
+        description: "Design moderno com cabeceira azul com botões de strass e pufe baú"
       },
     ]
   }
