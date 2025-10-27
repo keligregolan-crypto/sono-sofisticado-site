@@ -33,12 +33,12 @@ const products = [
     category: "Cama Box Solteiro com Cabeceira",
     items: [
       {
-        title: "Cama Box Solteiro - Preta Base Simples",
+        title: "Cama Box de Solteiro sem Cabeceira",
         image: camaSolteiroPreta1,
         description: "Base preta com design moderno e compacto"
       },
       {
-        title: "Cama Box Solteiro - Azul com Cabeceira Vertical",
+        title: "Cama Box Solteiro - Cabeceira Premium Azul",
         image: camaSolteiroAzul1,
         description: "Cabeceira vertical azul em tecido premium"
       },
