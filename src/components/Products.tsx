@@ -41,11 +41,6 @@ const products = [
         description: "Cabeceira vertical azul em tecido premium"
       },
       {
-        title: "Cama Box Solteiro - Preta com Cabeceira com Botões de Strass",
-        image: camaSolteiroPreta2,
-        description: "Elegante cabeceira preta com botões de strass decorativos"
-      },
-      {
         title: "Cama Box Solteiro - Azul com Cabeceira com Botões de Strass",
         image: camaSolteiroAzul2,
         description: "Cabeceira azul com botões de strass e acabamento premium"
@@ -54,11 +49,6 @@ const products = [
         title: "Cama Box Solteiro - Rosa com Cabeceira com Botões de Strass",
         image: camaSolteiroRosa,
         description: "Design delicado com cabeceira rosa com botões de strass"
-      },
-      {
-        title: "Cama Box Solteiro - Azul com Cabeceira Vertical Premium",
-        image: camaSolteiroAzul3,
-        description: "Cabeceira vertical azul com acabamento em tecido nobre"
       },
     ]
   },
