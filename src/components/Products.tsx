@@ -27,6 +27,20 @@ import baseBauBegeCompleta from "@/assets/products/base-bau-bege-completa.jpg";
 import camaConjugada8 from "@/assets/products/cama-casal-8.jpg";
 import camaConjugada9 from "@/assets/products/cama-casal-9.jpg";
 import camaConjugada10 from "@/assets/products/cama-casal-10.jpg";
+import baseBauPufeVideo from "@/assets/videos/base-bau-pufe.mp4";
+
+const videos = [
+  {
+    category: "Base box baú e pufé baú",
+    items: [
+      {
+        title: "Base Box Baú e Pufé Baú",
+        video: baseBauPufeVideo,
+        description: "Confira nosso vídeo demonstrativo da base box baú e pufé baú"
+      }
+    ]
+  }
+];
 
 const products = [
   {
@@ -145,6 +159,55 @@ const Products = () => {
             Qualidade, conforto e durabilidade em cada produto. Confira nosso catálogo completo.
           </p>
         </div>
+
+        {videos.map((category, categoryIndex) => (
+          <div key={`video-${categoryIndex}`} className="mb-16">
+            <h3 className="font-playfair text-3xl font-bold text-secondary mb-8 text-center">
+              {category.category}
+            </h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {category.items.map((item, itemIndex) => (
+                <Card 
+                  key={itemIndex}
+                  className="overflow-hidden hover:shadow-xl transition-shadow duration-300 border-primary/20"
+                >
+                  <CardContent className="p-0">
+                    <div className="aspect-video overflow-hidden bg-black">
+                      <video
+                        src={item.video}
+                        controls
+                        className="w-full h-full object-cover"
+                      >
+                        Seu navegador não suporta vídeos.
+                      </video>
+                    </div>
+                    <div className="p-6">
+                      <h4 className="font-playfair text-xl font-semibold text-secondary mb-2">
+                        {item.title}
+                      </h4>
+                      <p className="font-inter text-muted-foreground mb-4">
+                        {item.description}
+                      </p>
+                      <Button
+                        asChild
+                        className="w-full bg-primary text-primary-foreground hover:bg-accent font-inter font-semibold"
+                      >
+                        <a 
+                          href={`https://wa.me/${phoneNumber}?text=Olá! Gostaria de saber mais sobre: ${item.title}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Phone className="mr-2 h-4 w-4" />
+                          Solicitar Orçamento
+                        </a>
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        ))}
 
         {products.map((category, categoryIndex) => (
           <div key={categoryIndex} className="mb-16">
